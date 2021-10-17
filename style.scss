@@ -1,0 +1,79 @@
+body{
+  background-image: url(https://i.pinimg.com/originals/c2/ca/02/c2ca02a455a2ef3c73a821fb524e4932.gif);
+  background-position: center;
+  background-size: cover;
+  }
+.container{
+  background-color: midnightblue;
+  width:570px;
+  align-self:center; 
+  padding: 3%;
+  margin: auto;
+  font-color: white;
+  border-radius: 3%;
+  opacity: .9;
+ }
+#survey-form{
+  color: white;
+  font-family:lobster ;
+  font-size: 19px;
+  text-align: auto;
+}
+h1{
+ color: white;
+  font-size: 35px;
+  font-family: monospace;
+  text-align: center;
+  margin:1%;
+}
+h4{
+  font-family:monospace;
+  font-size: 19px;
+  margin: 2px;
+}
+p{
+  color: white;
+  font-size: 20px;
+  font-family:auto;
+  text-align: center;
+  margin:-1%;
+}
+#submit{
+  background-color: green;
+  color: white;
+  font-family: auto;
+  font-size: 20px;
+  text-align: center;
+  padding:8px;
+  width:582px;
+  border-radius: 9px;
+  border-width: 0px
+}
+#name{
+  width:570px; 
+  padding: 10px;
+  border-radius: 7px;
+  border-width: 0px;
+  margin:-10px;
+}
+#email{
+  width:570px; 
+  padding: 10px;
+  border-radius: 7px;
+  border-width: 0px;
+  margin:-10px;
+}
+#number{  
+  width:570px; 
+  padding: 10px;
+  border-radius: 7px;
+  border-width: 0px;
+  margin:-10px;
+}
+#Occupation{
+  width:590px; 
+  padding: 10px;
+  border-radius: 7px;
+  border-width: 0px;
+  margin:-10px;
+}

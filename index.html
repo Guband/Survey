@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Survey</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<title> A trip Survey Form </title>
+<body>
+<h1 id="title"> Your Trip Survey Form </h1>
+<p id="description"> Thank you for your time and enjoy it</p>
+<form id="survey-form"> <br>
+ <div class="container"> <label id="name-label"> Name<br><br><input type="text" placeholder="Enter your Name" id="name" required> </label> <br>
+ <br> <label id="email-label"> Email<br><br><input type="email" placeholder="Enter your email" id="email" required> </label> <br>
+<br>  <label id="number-label"> Phone Number<br> <br><input id="number" type="number" placeholder="123-456-789" pattern="[0-9]{10}" min="1"  max="10"></label> <br><br>
+  <label id="dropdown">Occupation
+ <br><br> <select name="Occupation" id="Occupation">
+<option value="Student">Student</option>
+<option value="Employee">Employee</option>
+<option value="Business-Owner">Business-Owner</option>
+<option value="Jobless">Jobless</option>
+  </select> </label>
+<br><br>
+<label> Conveyance<br><br><input type="radio" name="Conveyance" value="plane">Plane</label> <br>
+<br><label><input type="radio" name="Conveyance" value="train">Train</label> <br>
+<br><label><input type="radio" name="Conveyance" value="boat">Boat</label><br>
+  <br><label> Gender<br><br><input type="checkbox" name="gender" id="male" value="male">Male</label><br>
+<br><label> <input type="checkbox" name="gender" id="female" value="female">Female</label><br>
+<br><label> <input type="checkbox" name="gender" id="Other" value="Other">Other</label><br>
+<br><h4>Additional Comments or Suggestions?</h4>
+<textarea name="message" rows="10" cols="70" placeholder="Enter your Suggestions here...">
+</textarea> <br>
+<br><input type="submit" value="Submit" id="submit">
+</div>
+</form>
+</body>
+<!-- partial -->
+  
+</body>
+</html>
